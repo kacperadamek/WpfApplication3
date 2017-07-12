@@ -25,4 +25,46 @@ namespace WpfApplication3
             InitializeComponent();
         }
     }
+
+    #region Zasieng zmiennych
+
+    public int zmiennaPubliczna = 1;
+    internal int zmiennaInternal = 1;
+    private int zmiennaPrywatna = 1;
+
+    public void PierwszaMetoda()
+    {
+
+        var wynik = PI * r * r;
+        DrugaMetoda(naszeA);
+         
+        if(wynik > 30)
+        {
+            int klamrowaPulapka = 1;
+
+
+        }
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
