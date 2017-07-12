@@ -35,15 +35,30 @@ namespace WpfApplication3
     public void PierwszaMetoda()
     {
 
-        var wynik = PI * r * r;
-        DrugaMetoda(naszeA);
-         
-        if(wynik > 30)
+
+
+
+
+
+        #region
+        
+       private void Instrukcje()
+    {
+        testowyTextBlock.Text = "Start";
+        var warunek = true;
+
+        if(warunek)
         {
-            int klamrowaPulapka = 1;
-
-
+            testowyTextBlock.Text = "prawda";
         }
+else
+        {
+            testowyTextBlock.Text = "Fałsz";
+        }
+          
+    }
+
+
 
 
 
