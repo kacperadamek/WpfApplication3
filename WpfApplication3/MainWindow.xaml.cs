@@ -46,16 +46,57 @@ namespace WpfApplication3
     {
         testowyTextBlock.Text = "Start";
         var warunek = true;
+        var liczba = 1;
 
-        if(warunek)
+//        testowyTextBlock.Text = (warunek) ? "3" : "0";
+
+        if(liczba >1)
         {
-            testowyTextBlock.Text = "prawda";
+            testowyTextBlock.Text = "Prawda";
         }
-else
+            else
         {
             testowyTextBlock.Text = "Fałsz";
         }
-          
+
+        #region Instrukcja Switch
+        
+        switch (liczba)
+        {
+            case 0:
+                testowyTextBlock.Text = "Nie Działa";
+                break;
+            case 2:
+                testowyTextBlock.Text = "Działa";
+                break;
+            case 2:
+                testowyTextBlock.Text = "Może!!!";
+                break;
+
+            default:
+                break:
+        }
+        #endregion
+
+        #region Istrukcja For
+
+        for (int i = 0 ; i < lenght; i++)
+        {
+            testowyTextBlock.Text = i.ToString();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
 
@@ -67,7 +108,7 @@ else
 
 
 
-    }
+}
 
 
 
