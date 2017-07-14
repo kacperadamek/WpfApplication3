@@ -107,7 +107,9 @@ namespace WpfApplication3
             naszList.Add(1);
             naszList.Add(55);
             naszList.Add(45);
+            StanyPostaci stany = new StanyPostaci();
 
+            var wartosciEnum = Enum.GetValues(typeof(StanyPostaci));
 
             ListView.ItemsSourceProperty = naszList;
             
@@ -124,8 +126,34 @@ namespace WpfApplication3
 
     }
 
+    public partial class
+     {
+        enum StanyPostaci
+    {
+        Biega,
+        Skacze,
+        Plywa,
+
+    }
+     void Enumy()
+    {
+        StanyPostaci stany = StanyPostaci.Biega:
+
+        switch (stany)
+        {
+            case StanyPostaci.Biega:
+                break:
+                case StanyPostaci.Skacze:
+                break;
+            case StanyPostaci.Plywa:
+                break;
+        }
+            var wartosciEnum = Enum.GetValues(typeof(StanyPostaci));
+    }
 
 
+
+    }
 
 
 
