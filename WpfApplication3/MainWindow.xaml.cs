@@ -86,14 +86,39 @@ namespace WpfApplication3
         }
 
 
+        #region Kolekcje
+        int[] naszaTablica = new int[10];
+
+        List<int> naszList = new List<int>();
+
+        void Kolekcje()
+            {
+            naszaTablica[0] = 45;
+            naszaTablica[1] = 4546;
+            naszaTablica[2] = 54;
+            naszaTablica[3] = 14;
+            naszaTablica[4] = 16;
+            naszaTablica[5] = 17;
+            naszaTablica[6] = 18;
+            naszaTablica[7] = 19;
+            naszaTablica[8] = 11;
+            naszaTablica[9] = 12;
+
+            naszList.Add(1);
+            naszList.Add(55);
+            naszList.Add(45);
 
 
-
-
-
-
-
-
+            ListView.ItemsSourceProperty = naszList;
+            
+               
+            
+                    
+                    
+                    
+                    
+                      
+        }
 
 
 
